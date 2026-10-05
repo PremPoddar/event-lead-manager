@@ -15,7 +15,7 @@ def _generate(prompt: str, json_output: bool = False) -> str:
     if not api_key:
         raise AIError("GEMINI_API_KEY is not set")
 
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.4},

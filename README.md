@@ -21,7 +21,7 @@ You can add/edit/delete leads, search and filter them, and use AI to summarize y
 | Frontend | Next.js (App Router), TypeScript, Tailwind  |
 | Backend  | FastAPI, SQLAlchemy, Pydantic               |
 | Database | SQLite locally, PostgreSQL in production    |
-| AI       | Google Gemini (`gemini-2.5-flash`) over REST |
+| AI       | Google Gemini (`gemini-3.5-flash-lite`) over REST |
 
 ## Running locally
 
